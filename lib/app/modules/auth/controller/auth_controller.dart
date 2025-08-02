@@ -14,6 +14,7 @@ class AuthController extends GetxController {
 
   @override
   void onInit() {
+    print("AuthController initialized");
     super.onInit();
     _initializeAuth();
   }
